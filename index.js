@@ -1,5 +1,5 @@
 import express from "express"
-import rutas from "./routes/rutas.js"
+import rutas from "./rutas.js"
 
 const app = express()
 
@@ -21,3 +21,4 @@ const PORT = process.env.PORT || 3000
 app.listen(PORT, () => {
     console.log("Aplicación en http://localhost:" + PORT)
 })
+
